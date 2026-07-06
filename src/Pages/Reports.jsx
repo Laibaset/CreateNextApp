@@ -1,25 +1,19 @@
 import React, { useState } from 'react';
-import { useTranslation } from 'react-i18next'; // CHANGED: added i18next hook
+import { useTranslation } from 'react-i18next';
 
 export default function Reports() {
-  const { t } = useTranslation('Reports'); // CHANGED: added translation hook
+  const { t } = useTranslation('Reports');
 
   // Form input field local state hooks
-  // NOTE: kept as English values since these are the actual form data, not display text
   const [campaign, setCampaign] = useState('Health Aid');
   const [reportType, setReportType] = useState('Financial');
 
-  // CHANGED: "type" and "status" now store stable keys instead of raw English
-  // strings, so displayed text can be translated while the color-matching
-  // logic for status still works reliably.
-  // id, campaign, and date are left as real data (untranslated).
   const generatedReports = [
     { id: '#RPT-001', campaign: 'Health Aid', date: '2025-08-01', typeKey: 'financial', statusKey: 'completed' },
     { id: '#RPT-002', campaign: 'Education Fund', date: '2025-08-05', typeKey: 'compliance', statusKey: 'completed' },
     { id: '#RPT-003', campaign: 'Relief Packages', date: '2025-08-10', typeKey: 'financial', statusKey: 'inProgress' },
   ];
 
-  // CHANGED: lookup tables keyed the same way as the JSON translation file
   const typeLabels = {
     financial: t('typeFinancial'),
     compliance: t('typeCompliance'),
@@ -36,7 +30,20 @@ export default function Reports() {
 
   const handleGenerate = (e) => {
     e.preventDefault();
-    // Submission handler code goes here
+
+    // 1. Logs the final state payload ONLY when the submit button is triggered
+    console.log("%c🚀 Report Generation Initiated!", "color: #00A854; font-weight: bold; font-size: 14px;");
+    console.log("Final Submitted Payload:", {
+      campaign: campaign,
+      reportType: reportType,
+      timestamp: new Date().toISOString()
+    });
+
+    // 2. Clear / Reset values so they disappear or revert visually
+    setCampaign('Health Aid');
+    setReportType('Financial');
+
+    console.log("%c🧼 Visual Selection Fields Reset / Cleared.", "color: #0066FF; font-style: italic;");
   };
 
   return (
@@ -45,20 +52,17 @@ export default function Reports() {
       {/* Title Header Section */}
       <div>
         <h1 className="text-3xl font-bold text-[#5C2525]">{t('pageTitle')}</h1>
-        {/* CHANGED: "Reports & Compliance" -> t('pageTitle') */}
       </div>
 
       {/* Generate New Report Controller Box */}
       <section className="bg-white rounded-2xl p-6 shadow-sm">
         <h3 className="text-lg font-semibold text-gray-800 mb-4">{t('generateNewTitle')}</h3>
-        {/* CHANGED: "Generate New Report" -> t('generateNewTitle') */}
 
         <form onSubmit={handleGenerate} className="flex flex-col md:flex-row items-end gap-4 w-full">
           {/* Select dropdown wrapper: Campaign Selection */}
           <div className="flex flex-col gap-1.5 w-full md:flex-1">
             <label htmlFor="campaign-select" className="text-sm font-medium text-gray-700">
               {t('campaignLabel')}
-              {/* CHANGED: "Campaign" -> t('campaignLabel') */}
             </label>
             <select
               id="campaign-select"
@@ -66,7 +70,6 @@ export default function Reports() {
               onChange={(e) => setCampaign(e.target.value)}
               className="w-full border border-gray-300 rounded-lg p-2.5 bg-white text-sm text-gray-800 focus:outline-none focus:ring-1 focus:ring-[#5C2525] focus:border-[#5C2525] cursor-pointer"
             >
-              {/* NOTE: campaign names left untranslated (real data), same as other pages */}
               <option value="Health Aid">Health Aid</option>
               <option value="Education Fund">Education Fund</option>
               <option value="Relief Packages">Relief Packages</option>
@@ -77,7 +80,6 @@ export default function Reports() {
           <div className="flex flex-col gap-1.5 w-full md:flex-1">
             <label htmlFor="type-select" className="text-sm font-medium text-gray-700">
               {t('reportTypeLabel')}
-              {/* CHANGED: "Report Type" -> t('reportTypeLabel') */}
             </label>
             <select
               id="type-select"
@@ -85,8 +87,6 @@ export default function Reports() {
               onChange={(e) => setReportType(e.target.value)}
               className="w-full border border-gray-300 rounded-lg p-2.5 bg-white text-sm text-gray-800 focus:outline-none focus:ring-1 focus:ring-[#5C2525] focus:border-[#5C2525] cursor-pointer"
             >
-              {/* CHANGED: option "value" kept in English (actual form data),
-                  only the visible label is translated */}
               <option value="Financial">{t('typeFinancial')}</option>
               <option value="Compliance">{t('typeCompliance')}</option>
               <option value="Audit">{t('typeAudit')}</option>
@@ -100,7 +100,6 @@ export default function Reports() {
               className="w-full md:px-10 py-2.5 bg-[#5C2525] text-white text-sm font-medium rounded-lg hover:bg-[#4a1e1e] shadow-sm active:scale-95 transition-all text-center"
             >
               {t('generateBtn')}
-              {/* CHANGED: "Generate" -> t('generateBtn') */}
             </button>
           </div>
         </form>
@@ -109,7 +108,6 @@ export default function Reports() {
       {/* Generated Logs & Export Operations Table Card */}
       <section className="bg-white rounded-2xl p-6 shadow-sm flex flex-col gap-4">
         <h3 className="text-lg font-semibold text-gray-800">{t('generatedReportsTitle')}</h3>
-        {/* CHANGED: "Generated Reports" -> t('generatedReportsTitle') */}
 
         {/* Horizontal scroll support shell grid layout */}
         <div className="overflow-x-auto w-full border border-gray-100 rounded-xl">
@@ -121,7 +119,6 @@ export default function Reports() {
                 <th className="p-2">{t('generatedOn')}</th>
                 <th className="p-2">{t('typeHeader')}</th>
                 <th className="p-2 rounded-tr-xl">{t('status')}</th>
-                {/* CHANGED: all 5 column headers now use t(...) */}
               </tr>
             </thead>
 
@@ -132,12 +129,10 @@ export default function Reports() {
                   <td className="p-2">{report.campaign}</td>
                   <td className="p-2 font-mono text-xs">{report.date}</td>
                   <td className="p-2">{typeLabels[report.typeKey]}</td>
-                  {/* CHANGED: {report.type} -> {typeLabels[report.typeKey]} */}
                   <td className="p-2">
                     <span className={`font-medium ${statusColors[report.statusKey]}`}>
                       {statusLabels[report.statusKey]}
                     </span>
-                    {/* CHANGED: status text/color now driven by statusKey lookup instead of a literal string comparison */}
                   </td>
                 </tr>
               ))}
@@ -147,13 +142,18 @@ export default function Reports() {
 
         {/* Bottom Panel Export Document Controls */}
         <div className="flex justify-end gap-3 pt-2">
-          <button className="px-5 py-2.5 bg-[#0066FF] text-white text-sm font-medium rounded-lg hover:bg-blue-600 shadow-sm active:scale-95 transition-all">
+          <button 
+            onClick={() => console.log("Export Triggered: Downloading PDF version.")}
+            className="px-5 py-2.5 bg-[#0066FF] text-white text-sm font-medium rounded-lg hover:bg-blue-600 shadow-sm active:scale-95 transition-all"
+          >
             {t('downloadPdfBtn')}
           </button>
-          <button className="px-5 py-2.5 bg-[#00A854] text-white text-sm font-medium rounded-lg hover:bg-[#008f47] shadow-sm active:scale-95 transition-all">
+          <button 
+            onClick={() => console.log("Export Triggered: Exporting Spreadsheet file.")}
+            className="px-5 py-2.5 bg-[#00A854] text-white text-sm font-medium rounded-lg hover:bg-[#008f47] shadow-sm active:scale-95 transition-all"
+          >
             {t('exportExcelBtn')}
           </button>
-          {/* CHANGED: both export button labels now use t(...) */}
         </div>
       </section>
 

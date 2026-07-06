@@ -1,0 +1,20 @@
+{
+  "pageTitle": "Reports & Compliance",
+  "generateNewTitle": "Generate New Report",
+  "campaignLabel": "Campaign",
+  "reportTypeLabel": "Report Type",
+  "typeFinancial": "Financial",
+  "typeCompliance": "Compliance",
+  "typeAudit": "Audit",
+  "generateBtn": "Generate",
+  "generatedReportsTitle": "Generated Reports",
+  "reportId": "Report ID",
+  "campaign": "Campaign",
+  "generatedOn": "Generated On",
+  "typeHeader": "Type",
+  "status": "Status",
+  "statusCompleted": "Completed",
+  "statusInProgress": "In Progress",
+  "downloadPdfBtn": "Download PDF",
+  "exportExcelBtn": "Export Excel"
+}

@@ -1,0 +1,21 @@
+{
+  "pageTitle": "اتھارٹی ڈیش بورڈ",
+  "totalDonations": "کل عطیات",
+  "activeCampaigns": "فعال مہمات",
+  "registeredCharities": "رجسٹرڈ خیراتی ادارے",
+  "alertsLabel": "الرٹس",
+  "campaignApprovals": "مہمات کی منظوری",
+  "campaign": "مہم",
+  "charity": "خیراتی ادارہ",
+  "category": "زمرہ",
+  "raised": "جمع شدہ رقم",
+  "status": "حیثیت",
+  "statusPending": "منظوری کی منتظر",
+  "statusApproved": "منظور شدہ",
+  "statusRejected": "مسترد شدہ",
+  "approveSelected": "منتخب کو منظور کریں",
+  "rejectSelected": "منتخب کو مسترد کریں",
+  "suspiciousActivity": "مشکوک سرگرمی کے الرٹس",
+  "alertSpike": "ریلیف پیکجز کے لیے عطیات میں غیر معمولی اضافہ محسوس کیا گیا۔",
+  "alertDelay": "ایجوکیشن فنڈ مہم کی رپورٹنگ میں تاخیر ہوئی۔"
+}

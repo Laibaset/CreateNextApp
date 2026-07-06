@@ -1,0 +1,22 @@
+{
+  "pageTitle": "خیراتی ادارے کا انتظام",
+  "totalCampaigns": "کل مہمات",
+  "fundsRaised": "جمع شدہ رقم",
+  "documentsVerified": "دستاویزات کی تصدیق",
+  "yes": "ہاں",
+  "registeredCampaignsTitle": "رجسٹرڈ مہمات",
+  "campaign": "مہم",
+  "category": "زمرہ",
+  "raised": "جمع شدہ رقم",
+  "goal": "ہدف",
+  "status": "حیثیت",
+  "categoryMedical": "طبی",
+  "categoryEducation": "تعلیمی",
+  "categoryEmergency": "ہنگامی",
+  "statusApproved": "منظور شدہ",
+  "statusPending": "زیر التوا",
+  "statusRejected": "مسترد شدہ",
+  "legalDocsTitle": "قانونی دستاویزات اور لائسنس",
+  "legalDocsDesc": "اتھارٹی کے جائزے کے لیے اپنے ادارے کی رجسٹریشن دستاویزات، لائسنس، اور تعمیل رپورٹس اپ لوڈ کریں۔",
+  "uploadDocumentBtn": "دستاویز اپ لوڈ کریں"
+}

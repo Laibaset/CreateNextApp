@@ -1,0 +1,20 @@
+{
+  "pageTitle": "مہمات کا انتظام",
+  "createNewTitle": "نئی مہم بنائیں",
+  "campaignNameLabel": "مہم کا نام",
+  "campaignNamePlaceholder": "مثلاً فوڈ ریلیف پروگرام",
+  "categoryLabel": "زمرہ",
+  "categoryMedical": "طبی",
+  "categoryEducation": "تعلیمی",
+  "categoryEmergency": "ہنگامی",
+  "categoryEnvironment": "ماحولیاتی",
+  "goalAmountLabel": "ہدف رقم",
+  "createCampaignBtn": "مہم بنائیں",
+  "existingCampaignsTitle": "موجودہ مہمات",
+  "campaign": "مہم",
+  "goal": "ہدف",
+  "raised": "جمع شدہ رقم",
+  "status": "حیثیت",
+  "statusApproved": "منظور شدہ",
+  "statusPending": "زیر التوا"
+}

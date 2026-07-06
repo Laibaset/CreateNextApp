@@ -1,0 +1,22 @@
+{
+  "pageTitle": "ترتیبات",
+  "profileSettingsTitle": "پروفائل کی ترتیبات",
+  "fullNameLabel": "پورا نام",
+  "fullNamePlaceholder": "اپنا پورا نام درج کریں",
+  "emailLabel": "ای میل",
+  "emailPlaceholder": "اپنا ای میل درج کریں",
+  "phoneLabel": "فون نمبر",
+  "saveChangesBtn": "تبدیلیاں محفوظ کریں",
+  "securitySettingsTitle": "سیکیورٹی کی ترتیبات",
+  "currentPasswordLabel": "موجودہ پاس ورڈ",
+  "currentPasswordPlaceholder": "موجودہ پاس ورڈ درج کریں",
+  "newPasswordLabel": "نیا پاس ورڈ",
+  "newPasswordPlaceholder": "نیا پاس ورڈ درج کریں",
+  "confirmPasswordLabel": "نئے پاس ورڈ کی تصدیق کریں",
+  "confirmPasswordPlaceholder": "نئے پاس ورڈ کی تصدیق کریں",
+  "updatePasswordBtn": "پاس ورڈ اپ ڈیٹ کریں",
+  "preferencesTitle": "ترجیحات",
+  "enableDarkMode": "ڈارک موڈ فعال کریں",
+  "emailNotifications": "ای میل اطلاعات",
+  "smsAlerts": "ایس ایم ایس الرٹس"
+}

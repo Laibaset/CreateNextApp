@@ -1,0 +1,18 @@
+{
+  "pageTitle": "مستفید افراد",
+  "syncedTableTitle": "Sandi سے ہم آہنگ مستفید افراد",
+  "id": "شناخت نمبر",
+  "name": "نام",
+  "nationalId": "قومی شناختی کارڈ",
+  "campaign": "مہم",
+  "aidReceived": "امداد موصول ہوئی",
+  "status": "حیثیت",
+  "aidYes": "ہاں",
+  "aidNo": "نہیں",
+  "statusApproved": "منظور شدہ",
+  "statusPending": "زیر التوا",
+  "statusDuplicate": "نقل کی نشاندہی",
+  "managePanelTitle": "مستفید افراد کا انتظام",
+  "addNew": "نیا مستفید فرد شامل کریں",
+  "syncSandi": "Sandi کے ساتھ ہم آہنگ کریں"
+}

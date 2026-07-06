@@ -1,0 +1,22 @@
+{
+  "pageTitle": "Settings",
+  "profileSettingsTitle": "Profile Settings",
+  "fullNameLabel": "Full Name",
+  "fullNamePlaceholder": "Enter your full name",
+  "emailLabel": "Email",
+  "emailPlaceholder": "Enter your email",
+  "phoneLabel": "Phone",
+  "saveChangesBtn": "Save Changes",
+  "securitySettingsTitle": "Security Settings",
+  "currentPasswordLabel": "Current Password",
+  "currentPasswordPlaceholder": "Enter current password",
+  "newPasswordLabel": "New Password",
+  "newPasswordPlaceholder": "Enter new password",
+  "confirmPasswordLabel": "Confirm New Password",
+  "confirmPasswordPlaceholder": "Confirm new password",
+  "updatePasswordBtn": "Update Password",
+  "preferencesTitle": "Preferences",
+  "enableDarkMode": "Enable Dark Mode",
+  "emailNotifications": "Email Notifications",
+  "smsAlerts": "SMS Alerts"
+}

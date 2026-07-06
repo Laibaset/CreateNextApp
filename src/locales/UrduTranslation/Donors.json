@@ -1,0 +1,19 @@
+{
+  "pageTitle": "عطیہ دہندگان",
+  "tableTitle": "رجسٹرڈ عطیہ دہندگان",
+  "id": "شناخت نمبر",
+  "donorName": "عطیہ دہندہ کا نام",
+  "type": "قسم",
+  "totalDonations": "کل عطیات",
+  "lastDonation": "آخری عطیہ",
+  "engagementLevel": "شمولیت کی سطح",
+  "typeCorporate": "کارپوریٹ",
+  "typeIndividual": "انفرادی",
+  "engagementLow": "کم",
+  "engagementMedium": "درمیانی",
+  "engagementHigh": "زیادہ",
+  "engagementVeryHigh": "بہت زیادہ",
+  "managementTitle": "عطیہ دہندگان کا انتظام",
+  "addNewDonor": "نیا عطیہ دہندہ شامل کریں",
+  "exportReport": "عطیہ دہندہ رپورٹ برآمد کریں"
+}

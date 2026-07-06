@@ -1,0 +1,22 @@
+{
+  "pageTitle": "Donations",
+  "tableTitle": "Donation Transactions",
+  "txnId": "Txn ID",
+  "donorName": "Donor Name",
+  "campaign": "Campaign",
+  "amount": "Amount",
+  "paymentMethod": "Payment Method",
+  "date": "Date",
+  "status": "Status",
+  "methodBankTransfer": "Bank Transfer",
+  "methodCreditCard": "Credit Card",
+  "methodMobileWallet": "Mobile Wallet",
+  "methodDebitCard": "Debit Card",
+  "statusCompleted": "Completed",
+  "statusPending": "Pending",
+  "statusFailed": "Failed",
+  "filterTitle": "Filter Donations",
+  "showCompleted": "Show Completed",
+  "showPending": "Show Pending",
+  "showFailed": "Show Failed"
+}

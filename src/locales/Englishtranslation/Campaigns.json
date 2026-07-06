@@ -1,0 +1,20 @@
+{
+  "pageTitle": "Manage Campaigns",
+  "createNewTitle": "Create New Campaign",
+  "campaignNameLabel": "Campaign Name",
+  "campaignNamePlaceholder": "e.g. Food Relief Program",
+  "categoryLabel": "Category",
+  "categoryMedical": "Medical",
+  "categoryEducation": "Education",
+  "categoryEmergency": "Emergency",
+  "categoryEnvironment": "Environment",
+  "goalAmountLabel": "Goal Amount",
+  "createCampaignBtn": "Create Campaign",
+  "existingCampaignsTitle": "Existing Campaigns",
+  "campaign": "Campaign",
+  "goal": "Goal",
+  "raised": "Raised",
+  "status": "Status",
+  "statusApproved": "Approved",
+  "statusPending": "Pending"
+}

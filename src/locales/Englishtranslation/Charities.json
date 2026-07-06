@@ -1,0 +1,22 @@
+{
+  "pageTitle": "Charity Management",
+  "totalCampaigns": "Total Campaigns",
+  "fundsRaised": "Funds Raised",
+  "documentsVerified": "Documents Verified",
+  "yes": "Yes",
+  "registeredCampaignsTitle": "Registered Campaigns",
+  "campaign": "Campaign",
+  "category": "Category",
+  "raised": "Raised",
+  "goal": "Goal",
+  "status": "Status",
+  "categoryMedical": "Medical",
+  "categoryEducation": "Education",
+  "categoryEmergency": "Emergency",
+  "statusApproved": "Approved",
+  "statusPending": "Pending",
+  "statusRejected": "Rejected",
+  "legalDocsTitle": "Legal Documents & Licenses",
+  "legalDocsDesc": "Upload your organization's registration documents, licenses, and compliance reports for Authority review.",
+  "uploadDocumentBtn": "Upload Document"
+}

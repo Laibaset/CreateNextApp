@@ -1,0 +1,21 @@
+{
+  "pageTitle": "Authority Dashboard",
+  "totalDonations": "Total Donations",
+  "activeCampaigns": "Active Campaigns",
+  "registeredCharities": "Registered Charities",
+  "alertsLabel": "Alerts",
+  "campaignApprovals": "Campaign Approvals",
+  "campaign": "Campaign",
+  "charity": "Charity",
+  "category": "Category",
+  "raised": "Raised",
+  "status": "Status",
+  "statusPending": "Pending Approval",
+  "statusApproved": "Approved",
+  "statusRejected": "Rejected",
+  "approveSelected": "Approve Selected",
+  "rejectSelected": "Reject Selected",
+  "suspiciousActivity": "Suspicious Activity Alerts",
+  "alertSpike": "Unusual spike in donations detected for Relief Packages.",
+  "alertDelay": "Delayed reporting by Education Fund campaign."
+}

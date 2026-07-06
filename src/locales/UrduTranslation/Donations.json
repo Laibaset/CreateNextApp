@@ -1,0 +1,22 @@
+{
+  "pageTitle": "عطیات",
+  "tableTitle": "عطیات کے لین دین",
+  "txnId": "لین دین نمبر",
+  "donorName": "عطیہ دہندہ کا نام",
+  "campaign": "مہم",
+  "amount": "رقم",
+  "paymentMethod": "ادائیگی کا طریقہ",
+  "date": "تاریخ",
+  "status": "حیثیت",
+  "methodBankTransfer": "بینک ٹرانسفر",
+  "methodCreditCard": "کریڈٹ کارڈ",
+  "methodMobileWallet": "موبائل والیٹ",
+  "methodDebitCard": "ڈیبٹ کارڈ",
+  "statusCompleted": "مکمل",
+  "statusPending": "زیر التوا",
+  "statusFailed": "ناکام",
+  "filterTitle": "عطیات فلٹر کریں",
+  "showCompleted": "مکمل دکھائیں",
+  "showPending": "زیر التوا دکھائیں",
+  "showFailed": "ناکام دکھائیں"
+}

@@ -1,0 +1,19 @@
+{
+  "pageTitle": "Donors",
+  "tableTitle": "Registered Donors",
+  "id": "ID",
+  "donorName": "Donor Name",
+  "type": "Type",
+  "totalDonations": "Total Donations",
+  "lastDonation": "Last Donation",
+  "engagementLevel": "Engagement Level",
+  "typeCorporate": "Corporate",
+  "typeIndividual": "Individual",
+  "engagementLow": "Low",
+  "engagementMedium": "Medium",
+  "engagementHigh": "High",
+  "engagementVeryHigh": "Very High",
+  "managementTitle": "Donor Management",
+  "addNewDonor": "Add New Donor",
+  "exportReport": "Export Donor Report"
+}

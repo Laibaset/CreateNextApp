@@ -1,0 +1,18 @@
+{
+  "pageTitle": "Beneficiaries",
+  "syncedTableTitle": "Sandi Synced Beneficiaries",
+  "id": "ID",
+  "name": "Name",
+  "nationalId": "National ID",
+  "campaign": "Campaign",
+  "aidReceived": "Aid Received",
+  "status": "Status",
+  "aidYes": "Yes",
+  "aidNo": "No",
+  "statusApproved": "Approved",
+  "statusPending": "Pending",
+  "statusDuplicate": "Duplicate Flagged",
+  "managePanelTitle": "Manage Beneficiaries",
+  "addNew": "Add New Beneficiary",
+  "syncSandi": "Sync with Sandi"
+}

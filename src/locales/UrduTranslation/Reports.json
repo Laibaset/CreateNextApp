@@ -1,0 +1,20 @@
+{
+  "pageTitle": "رپورٹس اور تعمیل",
+  "generateNewTitle": "نئی رپورٹ بنائیں",
+  "campaignLabel": "مہم",
+  "reportTypeLabel": "رپورٹ کی قسم",
+  "typeFinancial": "مالیاتی",
+  "typeCompliance": "تعمیل",
+  "typeAudit": "آڈٹ",
+  "generateBtn": "تیار کریں",
+  "generatedReportsTitle": "تیار شدہ رپورٹس",
+  "reportId": "رپورٹ نمبر",
+  "campaign": "مہم",
+  "generatedOn": "تاریخ تیاری",
+  "typeHeader": "قسم",
+  "status": "حیثیت",
+  "statusCompleted": "مکمل",
+  "statusInProgress": "جاری ہے",
+  "downloadPdfBtn": "پی ڈی ایف ڈاؤن لوڈ کریں",
+  "exportExcelBtn": "ایکسل برآمد کریں"
+}

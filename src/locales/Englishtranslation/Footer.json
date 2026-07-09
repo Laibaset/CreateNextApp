@@ -1,0 +1,31 @@
+{
+  "brandName": "Qatar Charity",
+  "brandDescription": "Connecting generosity with need through transparency and technology. Making charitable giving more impactful in Qatar and beyond.",
+  "quickLinksTitle": "Quick Links",
+  "links": {
+    "home": "Home",
+    "about": "About Us",
+    "campaigns": "Our Campaigns",
+    "donor": "Donor",
+    "contact": "Contact"
+  },
+  "resourcesTitle": "Resources",
+  "resources": {
+    "faq": "FAQ",
+    "blog": "Blog & News",
+    "documentation": "Documentation",
+    "support": "Support Center",
+    "community": "Community"
+  },
+  "contactTitle": "Contact Us",
+  "addressLine1": "Doha, Qatar",
+  "addressLine2": "West Bay, Diplomatic Area",
+  "newsletterTitle": "Stay Updated with Our Initiatives",
+  "newsletterDescription": "Subscribe to our newsletter to receive updates on our campaigns, impact stories, and ways to help.",
+  "emailPlaceholder": "Your email address",
+  "subscribeButton": "Subscribe",
+  "copyright": "© 2026 Qatar Charity Platform. All rights reserved.",
+  "privacyPolicy": "Privacy Policy",
+  "termsOfService": "Terms of Service",
+  "cookiePolicy": "Cookie Policy"
+}

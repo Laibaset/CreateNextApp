@@ -1,0 +1,22 @@
+{
+  "header": {
+    "title": "ہماری مہم کا حصہ بنیں"
+  },
+
+  "form": {
+    "emailLabel": "ای میل ایڈریس",
+    "emailPlaceholder": "اپنا ای میل درج کریں",
+
+    "passwordLabel": "پاس ورڈ",
+    "passwordPlaceholder": "اپنا پاس ورڈ درج کریں",
+
+    "forgotPassword": "پاس ورڈ بھول گئے؟",
+
+    "loginButton": "لاگ اِن کریں"
+  },
+
+  "footer": {
+    "text": "کیا آپ کا اکاؤنٹ نہیں ہے؟",
+    "signUp": "سائن اپ کریں"
+  }
+}

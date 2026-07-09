@@ -16,15 +16,15 @@ import {
 // This keeps `active` state language-independent, so switching languages doesn't
 // break the highlighted/active nav item.
 const navItems = [
-  { key: "overview", icon: Home, link: "/" },
-  { key: "donations", icon: Heart, link: "/donations" },
-  { key: "donors", icon: HeartHandshake, link: "/donors" },
-  { key: "charities", icon: Users, link: "/charities" },
-  { key: "campaigns", icon: FileText, link: "/campaigns" },
-  { key: "authority", icon: BarChart3, link: "/authority" },
-  { key: "beneficiaries", icon: Database, link: "/beneficiaries" },
-  { key: "reports", icon: FileText, link: "/reports" },
-  { key: "settings", icon: Settings, link: "/settings" },
+  { key: "overview", icon: Home, link: "/dashboard" },
+  { key: "donations", icon: Heart, link: "/dashboard/donations" },
+  { key: "donors", icon: HeartHandshake, link: "/dashboard/donors" },
+  { key: "charities", icon: Users, link: "/dashboard/charities" },
+  { key: "campaigns", icon: FileText, link: "/dashboard/campaigns" },
+  { key: "authority", icon: BarChart3, link: "/dashboard/authority" },
+  { key: "beneficiaries", icon: Database, link: "/dashboard/beneficiaries" },
+  { key: "reports", icon: FileText, link: "/dashboard/reports" },
+  { key: "settings", icon: Settings, link: "/dashboard/settings" },
 ];
 
 const Sidebar = ({ isOpen, onClose }) => {

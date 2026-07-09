@@ -9,5 +9,9 @@
   "monthMar": "Mar",
   "monthApr": "Apr",
   "monthMay": "May",
-  "topCampaignsTitle": "Top Campaigns"
+  "topCampaignsTitle": "Top Campaigns",
+  "tooltipLabel": "Donations",
+  "campaignHealthAid": "Health Aid",
+  "campaignEducationFund": "Education Fund",
+  "campaignReliefPackages": "Relief Packages"
 }

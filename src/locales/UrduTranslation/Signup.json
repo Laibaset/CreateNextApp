@@ -1,0 +1,26 @@
+{
+  "header": {
+    "title": "آج ہی امید پیدا کریں"
+  },
+
+  "form": {
+    "fullNameLabel": "مکمل نام",
+    "fullNamePlaceholder": "اپنا مکمل نام درج کریں",
+
+    "emailLabel": "ای میل ایڈریس",
+    "emailPlaceholder": "اپنا ای میل درج کریں",
+
+    "passwordLabel": "پاس ورڈ",
+    "passwordPlaceholder": "اپنا پاس ورڈ درج کریں",
+
+    "confirmPasswordLabel": "پاس ورڈ کی تصدیق کریں",
+    "confirmPasswordPlaceholder": "اپنا پاس ورڈ دوبارہ درج کریں",
+
+    "signUpButton": "سائن اپ کریں"
+  },
+
+  "footer": {
+    "text": "کیا آپ کا پہلے سے اکاؤنٹ موجود ہے؟",
+    "login": "لاگ اِن کریں"
+  }
+}

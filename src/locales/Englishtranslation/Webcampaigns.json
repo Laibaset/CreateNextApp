@@ -1,0 +1,78 @@
+{
+  "heroTitle": "Start Your Charity Campaign",
+  "heroSubtitle": "Share your story, raise awareness, and inspire people to make a difference through collective support.",
+
+  "howItWorksTitle": "How It Works",
+  "step1Title": "Choose a Campaign",
+  "step1Desc": "Browse through various causes and select the campaign you'd like to support. Every campaign is transparent with clear goals.",
+  "step2Title": "Make a Donation",
+  "step2Desc": "Contribute securely through our platform. Even the smallest amount can bring life-changing impact to someone in need.",
+  "step3Title": "See the Impact",
+  "step3Desc": "Track the progress of campaigns you supported and witness the real change your contribution has created.",
+
+  "aboutTitle": "About Our Cause",
+  "aboutPara1": "We are committed to making a difference by supporting vulnerable communities through education, healthcare, and emergency relief. Every campaign is designed to bring real change to those who need it most.",
+  "aboutPara2": "With your support, we've impacted thousands of lives, built schools, provided medical aid, and delivered relief during natural disasters. Together, we can continue to spread hope and kindness.",
+
+  "activeCampaignsTitle": "Active Campaigns",
+  "goalLabel": "Goal:",
+  "raisedLabel": "Raised:",
+  "fundedLabel": "funded",
+
+  "campaign1Title": "Medical Aid for Children",
+  "campaign1Tag": "Health",
+  "campaign1Desc": "Providing medical assistance to underprivileged children in rural areas.",
+  "campaign1Goal": "QAR 100,000",
+  "campaign1Raised": "QAR 65,000",
+  "campaign1Duration": "01/05/2023 \u2192 31/12/2023",
+
+  "campaign2Title": "Education for All",
+  "campaign2Tag": "Education",
+  "campaign2Desc": "Building schools and providing educational materials for children in need.",
+  "campaign2Goal": "QAR 100,000",
+  "campaign2Raised": "QAR 42,000",
+  "campaign2Duration": "15/06/2023 \u2192 30/11/2023",
+
+  "campaign3Title": "Flood Relief Fund",
+  "campaign3Tag": "Relief",
+  "campaign3Desc": "Helping communities affected by recent floods with essential supplies and rebuilding efforts.",
+  "campaign3Goal": "QAR 200,000",
+  "campaign3Raised": "QAR 176,000",
+  "campaign3Duration": "01/07/2023 \u2192 31/10/2023",
+
+  "campaign4Title": "Food for Families",
+  "campaign4Tag": "Hunger",
+  "campaign4Desc": "Distributing food packages to low-income families to fight hunger.",
+  "campaign4Goal": "QAR 80,000",
+  "campaign4Raised": "QAR 55,000",
+  "campaign4Duration": "01/08/2023 \u2192 15/12/2023",
+
+  "campaign5Title": "Clean Water Project",
+  "campaign5Tag": "Environment",
+  "campaign5Desc": "Building wells and providing clean water to communities in need.",
+  "campaign5Goal": "QAR 120,000",
+  "campaign5Raised": "QAR 90,000",
+  "campaign5Duration": "10/09/2023 \u2192 28/02/2024",
+
+  "campaign6Title": "Hunger Free Drive",
+  "campaign6Tag": "Food & Nutrition",
+  "campaign6Desc": "Distributing meals and ration packs to homeless families and underprivileged communities to fight hunger and malnutrition.",
+  "campaign6Goal": "QAR 120,000",
+  "campaign6Raised": "QAR 47,000",
+  "campaign6Duration": "01/09/2023 \u2192 28/02/2024",
+
+  "testimonialsTitle": "What People Say",
+  "testimonial1Name": "Sarah Johnson",
+  "testimonial1Role": "Donor",
+  "testimonial1Text": "Supporting campaigns here has been an amazing experience. I can actually see the change my donation makes.",
+  "testimonial2Name": "David Martinez",
+  "testimonial2Role": "Volunteer",
+  "testimonial2Text": "Being a volunteer taught me the value of community support. This platform has transformed countless lives.",
+  "testimonial3Name": "Aisha Khan",
+  "testimonial3Role": "Beneficiary",
+  "testimonial3Text": "Thanks to the donors, my village received clean water. This has truly changed our daily lives for the better.",
+
+  "ctaTitle": "Be Part of the Change Today",
+  "ctaDesc": "Your contribution can bring hope to communities in need. Start supporting a campaign now and help us create a better tomorrow.",
+  "ctaButton": "Donate Now"
+}

@@ -5,8 +5,8 @@ export default function Reports() {
   const { t } = useTranslation('Reports');
 
   // Form input field local state hooks
-  const [campaign, setCampaign] = useState('Health Aid');
-  const [reportType, setReportType] = useState('Financial');
+  const [campaign, setCampaign] = useState('healthAid');
+  const [reportType, setReportType] = useState('financial');
 
   const generatedReports = [
     { id: '#RPT-001', campaign: 'Health Aid', date: '2025-08-01', typeKey: 'financial', statusKey: 'completed' },
@@ -40,8 +40,8 @@ export default function Reports() {
     });
 
     // 2. Clear / Reset values so they disappear or revert visually
-    setCampaign('Health Aid');
-    setReportType('Financial');
+    setCampaign('healthAid');
+    setReportType('financial');
 
     console.log("%c🧼 Visual Selection Fields Reset / Cleared.", "color: #0066FF; font-style: italic;");
   };
@@ -70,9 +70,9 @@ export default function Reports() {
               onChange={(e) => setCampaign(e.target.value)}
               className="w-full border border-gray-300 rounded-lg p-2.5 bg-white text-sm text-gray-800 focus:outline-none focus:ring-1 focus:ring-[#5C2525] focus:border-[#5C2525] cursor-pointer"
             >
-              <option value="Health Aid">Health Aid</option>
-              <option value="Education Fund">Education Fund</option>
-              <option value="Relief Packages">Relief Packages</option>
+              <option value="healthAid">{t('campaignHealthAid')}</option>
+              <option value="educationFund">{t('campaignEducationFund')}</option>
+              <option value="reliefPackages">{t('campaignReliefPackages')}</option>
             </select>
           </div>
 
@@ -87,9 +87,9 @@ export default function Reports() {
               onChange={(e) => setReportType(e.target.value)}
               className="w-full border border-gray-300 rounded-lg p-2.5 bg-white text-sm text-gray-800 focus:outline-none focus:ring-1 focus:ring-[#5C2525] focus:border-[#5C2525] cursor-pointer"
             >
-              <option value="Financial">{t('typeFinancial')}</option>
-              <option value="Compliance">{t('typeCompliance')}</option>
-              <option value="Audit">{t('typeAudit')}</option>
+              <option value="financial">{t('typeFinancial')}</option>
+              <option value="compliance">{t('typeCompliance')}</option>
+              <option value="audit">{t('typeAudit')}</option>
             </select>
           </div>
 

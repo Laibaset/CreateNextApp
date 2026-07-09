@@ -1,0 +1,91 @@
+{
+  "sectionTitle": "Frequently Asked Questions",
+  "sectionDescription": "Find answers to common questions about Qatar's premier charity management platform",
+  "tabs": {
+    "generalQuestions": "General Questions",
+    "forDonors": "For Donors",
+    "forCharities": "For Charities",
+    "technicalSupport": "Technical Support"
+  },
+  "faqs": {
+    "generalQuestions": [
+      {
+        "q": "What is the Qatar Charity Platform?",
+        "a": "The Qatar Charity Platform is a comprehensive digital ecosystem that integrates donors, verified charity organizations, and the Regulatory Authority for Charitable Activities (RACA) to provide a unified, transparent environment for managing and auditing philanthropic initiatives across Qatar."
+      },
+      {
+        "q": "How does the platform ensure transparency?",
+        "a": "We achieve absolute clarity by utilizing integrated data ledgers and mandatory tracking workflows. Every donation is traced directly from your secure checkout to real-time allocation updates and direct regulatory validations."
+      },
+      {
+        "q": "Is my personal information secure?",
+        "a": "Absolutely. The platform enforces multi-layered encryption protocols, secure identity authentication checkpoints, and fully complies with national data privacy regulations to guarantee user security."
+      },
+      {
+        "q": "What languages are supported?",
+        "a": "The platform offers comprehensive, full-fidelity native localization for both Arabic and English user interfaces across all operational panels and digital dashboards."
+      }
+    ],
+    "forDonors": [
+      {
+        "q": "How can I make a donation?",
+        "a": "You can easily browse through RACA-approved active campaigns on our platform, select the cause you wish to support, and securely complete your payment using credit cards, direct bank transfers, or mobile digital wallets via our encrypted payment gateway."
+      },
+      {
+        "q": "Will I receive a receipt for my donation?",
+        "a": "Yes, an instant, digital receipt is automatically generated and emailed to you as soon as the transaction settles. You can also view and download your full historical donation receipts directly from your donor dashboard at any time."
+      },
+      {
+        "q": "How can I track the impact of my donation?",
+        "a": "Through our integration with national tracing data systems, you receive real-time updates and localized milestone notifications detailing exactly when and how your funds are distributed to beneficiaries, supplemented by verifiable impact reports."
+      },
+      {
+        "q": "Can I set up recurring donations?",
+        "a": "Absolutely. When making a contribution to a long-term campaign, you can opt to enable automated weekly, monthly, or quarterly recurring donations, which can be modified or paused instantly via your profile settings."
+      },
+      {
+        "q": "Are there any fees for donating?",
+        "a": "No administrative or platform service operational fees are deducted from your donation. 100% of your contributed amount reaches the specified charity campaign, excluding standard external bank or card provider network processing clearances."
+      }
+    ],
+    "forCharities": [
+      {
+        "q": "How can my organization register on the platform?",
+        "a": "Charity associations operating legally within Qatar can initiate onboarding by uploading their current valid licenses, corporate credentials, and structural tokens to our compliance portal for automated vetting and RACA clearance cycles."
+      },
+      {
+        "q": "What are the reporting requirements?",
+        "a": "Registered charities must utilize our integrated data ledger workflows to register systematic distribution logs, beneficiary allocation mappings, and financial itemizations to retain automated real-time statutory RACA dashboard validation compliance."
+      },
+      {
+        "q": "How does the Sandi integration work?",
+        "a": "Our core framework matches recipient metadata instantly against the national Sandi cross-coordination registry during allocation processing, validating eligibility variables to guarantee synchronized, equalized assistance without structural duplication errors."
+      },
+      {
+        "q": "What support is available for charity administrators?",
+        "a": "We offer complete operational support resources including dedicated institutional training, system sandbox testing guides, administrative tooling dashboards, and direct priority emergency support communication lines."
+      }
+    ],
+    "technicalSupport": [
+      {
+        "q": "What browsers are supported?",
+        "a": "The platform is optimized for performance across all modern desktop and mobile browsers, including the latest stable builds of Google Chrome, Apple Safari, Mozilla Firefox, and Microsoft Edge."
+      },
+      {
+        "q": "Is there a mobile app available?",
+        "a": "Yes, our native companion interfaces are fully deployed for ecosystem operators and public users alike, available for download on both the iOS App Store and Google Play Store with comprehensive dual English/Arabic interface states."
+      },
+      {
+        "q": "What if I encounter technical issues?",
+        "a": "If you observe errors during authorization checkouts, identity updates, or dashboard reporting cycles, you can submit an instant diagnostics ticket through the platform's support panel or launch an immediate text query via the live support portal."
+      },
+      {
+        "q": "How often is the platform updated?",
+        "a": "Our engineering operations continuously deliver security optimizations, automated framework patches, and feature additions through standard continuous delivery channels, minimizing system downtime intervals."
+      }
+    ]
+  },
+  "calloutTitle": "Still have questions?",
+  "calloutDescription": "Our support team is ready to help you with any additional questions you might have about the platform.",
+  "calloutButton": "Contact Support"
+}

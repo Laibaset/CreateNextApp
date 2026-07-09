@@ -1,0 +1,22 @@
+{
+  "header": {
+    "title": "Join The Movement"
+  },
+
+  "form": {
+    "emailLabel": "Email Address",
+    "emailPlaceholder": "Enter your email",
+
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+
+    "forgotPassword": "Forgot Password?",
+
+    "loginButton": "Login"
+  },
+
+  "footer": {
+    "text": "Don't have an account?",
+    "signUp": "Sign Up"
+  }
+}

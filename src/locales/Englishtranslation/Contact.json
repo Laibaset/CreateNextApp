@@ -1,0 +1,70 @@
+{
+  "hero": {
+    "title": "We'd love to hear from you",
+    "description": "Whether it's about donations, receipts, or support, our team is here to help you.",
+    "badge": "We reply within 24 hours",
+    "viewCampaigns": "View Campaigns",
+    "getStarted": "Get Started"
+  },
+
+  "contactSection": {
+    "title": "Get In Touch",
+    "description": "We'd love to hear from you. Reach out to us with any questions or inquiries."
+  },
+
+  "contactForm": {
+    "title": "Send us a Message",
+    "subtitle": "We'll respond as soon as possible",
+    "name": "Your Full Name",
+    "email": "Your Email Address",
+    "topic": "Choose a Topic",
+    "generalInquiry": "General Inquiry",
+    "donations": "Donations & Receipts",
+    "campaignSupport": "Campaign Support",
+    "subject": "Subject",
+    "message": "Your Message",
+    "button": "Send Message"
+  },
+
+  "contactInfo": {
+    "title": "Contact Information",
+
+    "emailTitle": "Email",
+    "email": "support@charity.org",
+    "emailNote": "Typically replies within 24 hours",
+
+    "phoneTitle": "Phone",
+    "phone": "+123 456 7890",
+    "phoneNote": "WhatsApp Available (9 AM - 5 PM)",
+
+    "officeTitle": "Office",
+    "office": "123 Charity Street, City, Country",
+    "officeNote": "Visit by appointment only"
+  },
+
+  "quickSupport": {
+    "title": "Quick Support",
+
+    "receiptTitle": "Download Receipts",
+    "receiptDesc": "Access your donation records",
+
+    "historyTitle": "Donation History / FAQs",
+    "historyDesc": "View your contributions and common questions",
+
+    "faqTitle": "Need Help? Visit FAQs",
+    "faqDesc": "Find answers to common questions"
+  },
+
+  "location": {
+    "label": "Location",
+    "title": "Visit Our Office",
+    "description": "We're conveniently located for your convenience. Stop by our office for inquiries, support, or to connect with our team in person.",
+
+    "headquarters": "Headquarters",
+    "address1": "123 Business Avenue, Suite 100",
+    "address2": "Melbourne, VIC 3000",
+
+    "directions": "Get Directions",
+    "copyAddress": "Copy Address"
+  }
+}

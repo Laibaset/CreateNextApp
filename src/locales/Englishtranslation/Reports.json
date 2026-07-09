@@ -16,5 +16,8 @@
   "statusCompleted": "Completed",
   "statusInProgress": "In Progress",
   "downloadPdfBtn": "Download PDF",
-  "exportExcelBtn": "Export Excel"
+  "exportExcelBtn": "Export Excel",
+  "campaignHealthAid": "Health Aid",
+  "campaignEducationFund": "Education Fund",
+  "campaignReliefPackages": "Relief Packages"
 }

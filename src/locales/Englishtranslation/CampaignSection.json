@@ -1,0 +1,40 @@
+{
+  "sectionBadge": "Verified Campaigns",
+  "sectionTitle": "Make a Difference Today",
+  "sectionDescription": "Support RACA-approved campaigns from trusted charities in Qatar. All campaigns are integrated with Sandi for transparent impact.",
+  "campaigns": [
+    {
+      "tag": "Health",
+      "organization": "Qatar Red Crescent",
+      "title": "Medical Support for Families",
+      "description": "Provide essential medical care and medication for low-income families across Qatar",
+      "funded": "% funded",
+      "raised": "Raised",
+      "goalPrefix": "Goal:",
+      "cta": "Donate Now"
+    },
+    {
+      "tag": "Education",
+      "organization": "Education Above All",
+      "title": "Digital Learning for Students",
+      "description": "Supply tablets and internet access for students in need to continue their education",
+      "funded": "% funded",
+      "raised": "Raised",
+      "goalPrefix": "Goal:",
+      "cta": "Donate Now"
+    },
+    {
+      "tag": "Relief",
+      "organization": "Qatar Charity",
+      "title": "Winter Aid Package Distribution",
+      "description": "Provide warm clothing, blankets and heating equipment for families during winter months",
+      "funded": "% funded",
+      "raised": "Raised",
+      "goalPrefix": "Goal:",
+      "cta": "Donate Now"
+    }
+  ],
+  "bottomCta": "View All Campaigns",
+  "bottomNote": "All campaigns are RACA-approved and Sandi-integrated",
+  "statusText": "Integrated with Sandi to prevent duplication"
+}

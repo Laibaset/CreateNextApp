@@ -1,30 +1,55 @@
 import Layout from "./Layout";
-import Overview from "./Pages/Overview";
+import PublicLayout from "./PublicLayout";
+import Overview from "./Pages/Dashboard/Overview";
 import { Routes, Route } from "react-router-dom";
 import "./i18n";
-import Donations from "./Pages/Donations";
-import Donors from "./Pages/Donors";
-import Charities from "./Pages/Charities";
-import Campaigns from "./Pages/Campaigns";
-import Authority from "./Pages/Authority";
-import Beneficiaries from "./Pages/Beneficiaries";
-import Reports from "./Pages/Reports";  
-import Settings from "./Pages/Settings";
+import Donations from "./Pages/Dashboard/Donations";
+import Donors from "./Pages/Dashboard/Donors";
+import Charities from "./Pages/Dashboard/Charities";
+import Campaigns from "./Pages/Dashboard/Campaigns";
+import Authority from "./Pages/Dashboard/Authority";
+import Beneficiaries from "./Pages/Dashboard/Beneficiaries";
+import Reports from "./Pages/Dashboard/Reports";
+import Settings from "./Pages/Dashboard/Settings";
+import Home from "./Pages/Home";
+import LoginPage from "./Pages/LoginPage";
+import Signup from "./Pages/Signup";
+import Campaign from "./Pages/Campaign";
+import ContactPage from "./Pages/ContactPage";
+import DonorPage from "./Pages/DonorPage";
+import AboutPage from "./Pages/AboutPage";
+
+
+
+
+
 
 const App = () => {
   return (
     <Routes>
-    
-      <Route path="/" element={<Layout><Overview /></Layout>} />
-       <Route path="Donations" element={<Layout><Donations /></Layout>} />
-      <Route path="Donors" element={<Layout><Donors /></Layout>} />
-      <Route path="Charities" element={<Layout><Charities /></Layout>} />
-      <Route path="Campaigns" element={<Layout><Campaigns /></Layout>} />
-      <Route path="Authority" element={<Layout><Authority /></Layout>} />
-      <Route path="Beneficiaries" element={<Layout><Beneficiaries /></Layout>} />
-      <Route path="Reports" element={<Layout><Reports /></Layout>} />
-      <Route path="Settings" element={<Layout><Settings /></Layout>} />
+      {/* Public site: Navbar + Footer on every route nested here */}
+      <Route element={<PublicLayout />}>
+        <Route path="/" element={<Home />} />
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/campaign" element={<Campaign />} />
+        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/donor" element={<DonorPage />} />
+        <Route path="/about" element={<AboutPage />} />
+      </Route>
 
+      {/* Dashboard: its own Navbar + Sidebar, no public Footer */}
+      <Route path="dashboard" element={<Layout />}>
+        <Route index element={<Overview />} />
+        <Route path="donations" element={<Donations />} />
+        <Route path="donors" element={<Donors />} />
+        <Route path="charities" element={<Charities />} />
+        <Route path="campaigns" element={<Campaigns />} />
+        <Route path="authority" element={<Authority />} />
+        <Route path="beneficiaries" element={<Beneficiaries />} />
+        <Route path="reports" element={<Reports />} />
+        <Route path="settings" element={<Settings />} />
+      </Route>
     </Routes>
   );
 };

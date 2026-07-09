@@ -1,0 +1,51 @@
+{
+  "sectionTitle": "A Platform for",
+  "sectionTitleAccent": "Everyone",
+  "sectionDescription": "Designed to serve all stakeholders in Qatar's charitable ecosystem with transparency and efficiency",
+  "cards": [
+    {
+      "title": "Donors",
+      "description": "Individuals and corporates united to make a difference.",
+      "actionText": "Start Donating",
+      "features": [
+        "Give with confidence through transparent tracking",
+        "Flexible payment options: bank transfer, QR code",
+        "Receive instant confirmations and real-time impact updates",
+        "Choose from health, education, relief campaigns"
+      ]
+    },
+    {
+      "title": "Charities",
+      "description": "Organizations managing campaigns and donations.",
+      "actionText": "Register Your Charity",
+      "features": [
+        "Create and manage donation campaigns efficiently",
+        "Upload legal documents and licenses for verification",
+        "Track donations and distribution to beneficiaries",
+        "Generate automated reports for RACA compliance"
+      ]
+    },
+    {
+      "title": "Authority (RACA)",
+      "description": "Regulatory body with oversight and compliance tools.",
+      "actionText": "Learn About Oversight",
+      "features": [
+        "Approve or reject charity campaigns",
+        "View all donations and campaigns in real-time",
+        "Receive automated compliance and financial reports",
+        "Track performance through KPI dashboards"
+      ]
+    }
+  ],
+  "bannerBadge": "Integrated Solution",
+  "bannerTitle": "Seamless Sandi Integration",
+  "bannerDescription": "Our platform integrates directly with Qatar's national Sandi platform to ensure coordinated aid distribution and prevent duplication of assistance.",
+  "bannerFeatures": [
+    "Sync beneficiary data to prevent duplicate assistance",
+    "Unified database combining Sandi and our platform",
+    "Full visibility of all aid distribution in Qatar"
+  ],
+  "metricValue": "100%",
+  "metricTitle": "Coordination Efficiency",
+  "metricSubtitle": "No duplicate assistance"
+}

@@ -1,0 +1,41 @@
+{
+  "badge": "Qatar's Premier Charity Platform",
+  "heading": "Transforming Charitable Giving in Qatar",
+  "description": "A comprehensive digital platform integrating with Sandi to bring transparency, efficiency, and trust to charitable donations across Qatar.",
+  "stats": [
+    { "value": "2.5M+", "label": "Donations Processed", "subtext": "+15% this month" },
+    { "value": "150+", "label": "Charities Registered", "subtext": "Across Qatar" },
+    { "value": "98%", "label": "Donor Satisfaction", "subtext": "Based on 10k+ reviews" },
+    { "value": "100%", "label": "Regulatory Compliance", "subtext": "Zero violations" }
+  ],
+  "tabs": {
+    "allFeatures": "All Features",
+    "transparency": "Transparency",
+    "security": "Security & Compliance",
+    "sandi": "Sandi Integration",
+    "management": "Management",
+    "accessibility": "Accessibility"
+  },
+  "sectionTitle": "Platform Features",
+  "sectionDescription": "Advanced capabilities designed for all stakeholders in the charitable ecosystem",
+  "features": [
+    { "title": "Real-time Tracking", "description": "Follow your donation from start to finish with complete transparency.", "category": "Transparency" },
+    { "title": "Sandi Integration", "description": "Seamless coordination with Qatar's national assistance platform to prevent duplication.", "category": "Sandi Integration" },
+    { "title": "Blockchain Security", "description": "Tamper-proof records of all transactions ensuring complete transparency.", "category": "Security & Compliance" },
+    { "title": "Multi-platform Access", "description": "Web and mobile apps available in both Arabic and English.", "category": "Accessibility" },
+    { "title": "AML & Fraud Detection", "description": "Advanced algorithms to detect and prevent suspicious activities.", "category": "Security & Compliance" },
+    { "title": "Automated Reporting", "description": "Generate compliance and financial reports with a single click.", "category": "Management" },
+    { "title": "KPI Dashboards", "description": "Monitor performance metrics for charities and campaigns.", "category": "Management" },
+    { "title": "Multi-payment Options", "description": "Credit cards, bank transfers, QR codes, and digital wallets.", "category": "Accessibility" }
+  ],
+  "testimonialsTitle": "What Our Users Say",
+  "testimonialsDescription": "Hear from stakeholders across the charitable ecosystem",
+  "testimonials": [
+    { "name": "Ahmed Al-Thani", "role": "Regular Donor", "quote": "As a donor, I can now see exactly where my contribution goes, which makes me more confident in giving." },
+    { "name": "Fatima Al-Attiyah", "role": "Charity Administrator", "quote": "The Sandi integration has eliminated duplicate aid distribution, making our operations much more efficient." },
+    { "name": "Khalid Al-Sulaiti", "role": "RACA Official", "quote": "The compliance tools give us complete oversight while reducing our administrative workload significantly." }
+  ],
+  "ctaTitle": "Join Qatar's Trusted Charity Platform",
+  "ctaPrimary": "Register Your Charity",
+  "ctaSecondary": "Make a Donation"
+}

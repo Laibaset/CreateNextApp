@@ -1,0 +1,23 @@
+{
+  "badge": "Transparent Process",
+  "heading": "How Your Donation Makes an Impact",
+  "description": "Our platform ensures complete transparency from donation to distribution, with full integration to Qatar's Sandi system",
+  "steps": [
+    { "title": "Choose a Verified Campaign", "description": "Browse RACA-approved campaigns from trusted charities in Qatar" },
+    { "title": "Donate Securely", "description": "Give easily via card, bank transfer, or digital wallet with encryption" },
+    { "title": "Track Your Impact", "description": "Receive real-time updates on how your donation is being used" }
+  ],
+  "sectionTitle": "Complete Transparency with Sandi Integration",
+  "sectionDescription": "Our platform uses blockchain technology to create an immutable record of every transaction, ensuring complete transparency from donor to beneficiary while integrating with Qatar's national Sandi platform.",
+  "checklist": [
+    "Integrated with Sandi to prevent duplicate aid distribution",
+    "RACA approved and monitored campaigns with full oversight",
+    "Regular impact reports with photos, videos, and beneficiary stories",
+    "Blockchain-verified transaction records for complete auditability"
+  ],
+  "metricValue": "100%",
+  "metricTitle": "Transparent Donation Tracking",
+  "metricSubtitle": "From donor to beneficiary",
+  "cta": "Start Donating Now",
+  "footerNote": "All donations are processed securely and are tax-deductible in Qatar"
+}

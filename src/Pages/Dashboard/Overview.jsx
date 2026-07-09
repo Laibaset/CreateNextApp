@@ -13,9 +13,9 @@ export default function Overview() {
   ];
 
   const campaigns = [
-    { name: 'Health Aid', amount: '$250K' },
-    { name: 'Education Fund', amount: '$180K' },
-    { name: 'Relief Packages', amount: '$120K' },
+    { nameKey: 'campaignHealthAid', amount: '$250K' },
+    { nameKey: 'campaignEducationFund', amount: '$180K' },
+    { nameKey: 'campaignReliefPackages', amount: '$120K' },
   ];
 
   // Restructured data array directly linked into Recharts coordinates matching your visual point plot positions
@@ -34,7 +34,7 @@ export default function Overview() {
         <div className="bg-white border border-gray-200 p-3 shadow-sm rounded-lg text-xs">
           <p className="font-semibold text-gray-800 mb-0.5">{payload[0].payload.name}</p>
           <p className="text-[#5C2525]">
-            donations : <span className="font-medium">{payload[0].value}</span>
+            {t('tooltipLabel')} : <span className="font-medium">{payload[0].value}</span>
           </p>
         </div>
       );
@@ -111,7 +111,7 @@ export default function Overview() {
           <ul className="flex flex-col gap-6">
             {campaigns.map((campaign, index) => (
               <li key={index} className="flex justify-between items-center border-b border-gray-50 pb-2 last:border-0 last:pb-0">
-                <span className="text-gray-700 font-medium text-base">{campaign.name}</span>
+                <span className="text-gray-700 font-medium text-base">{t(campaign.nameKey)}</span>
                 <span className="text-gray-900 font-semibold text-base">{campaign.amount}</span>
               </li>
             ))}

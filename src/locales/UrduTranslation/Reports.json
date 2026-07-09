@@ -16,5 +16,8 @@
   "statusCompleted": "مکمل",
   "statusInProgress": "جاری ہے",
   "downloadPdfBtn": "پی ڈی ایف ڈاؤن لوڈ کریں",
-  "exportExcelBtn": "ایکسل برآمد کریں"
+  "exportExcelBtn": "ایکسل برآمد کریں",
+  "campaignHealthAid": "ہیلتھ ایڈ",
+  "campaignEducationFund": "ایجوکیشن فنڈ",
+  "campaignReliefPackages": "ریلائف پیکیجز"
 }

@@ -1,0 +1,43 @@
+{
+  "header": {
+    "title": "Support Our Mission",
+    "subtitle": "Fill out the form below to volunteer, donate, or ask us anything."
+  },
+  "sections": {
+    "personalInfo": "Personal Information",
+    "helpIntent": "How Would You Like to Help?",
+    "message": "Your Message",
+    "contactPreference": "Contact Preference",
+    "consent": "Consent"
+  },
+  "fields": {
+    "fullName": "Full Name",
+    "phone": "Phone Number (WhatsApp)",
+    "email": "Email Address",
+    "helpIntentLabel": "I Want To",
+    "helpIntentPlaceholder": "I Want To",
+    "messageLabel": "Why do you want to support our cause?",
+    "messagePlaceholder": "Why do you want to support our cause?",
+    "uploadLabel": "Upload Documents (Optional)",
+    "uploadText": "Upload relevant documents (PDF, Word, Images)",
+    "uploadHint": "Max file size: 10MB, Max files: 5",
+    "uploadButton": "Choose Files",
+    "contactPreferenceLabel": "How would you prefer us to contact you?",
+    "contactPreferencePlaceholder": "How would you prefer us to contact you?",
+    "consentText": "I confirm that the information I've provided is accurate and I consent to being contacted via my selected method. I agree to the Privacy Policy and understand my data will be processed for the purpose of handling this request.",
+    "consentNote": "Your details are kept confidential and won't be shared without permission."
+  },
+  "options": {
+    "volunteer": "Volunteer my time",
+    "donate": "Make a monetary donation",
+    "inquire": "General Inquiry / Ask anything",
+    "whatsapp": "WhatsApp Message",
+    "email": "Email",
+    "call": "Direct Phone Call"
+  },
+  "footer": {
+    "responseTime": "We usually respond within 1-2 working days.",
+    "cancel": "Cancel",
+    "submit": "Submit via WhatsApp"
+  }
+}

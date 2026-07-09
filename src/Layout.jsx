@@ -1,8 +1,9 @@
 import { useState } from "react";
-import Navbar from "./Components/Navbar" 
-import Sidebar from  "./Components/Sidebar";
+import { Outlet } from "react-router-dom";
+import Navbar from "./Pages/Dashboard/Components/Navbar";
+import Sidebar from "./Pages/Dashboard/Components/Sidebar";
 
-const Layout = ({ children }) => {
+const Layout = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
@@ -15,7 +16,9 @@ const Layout = ({ children }) => {
           isSidebarOpen={sidebarOpen}
         />
 
-        <main className="p-6 overflow-y-auto">{children}</main>
+        <main className="p-6 overflow-y-auto">
+          <Outlet />
+        </main>
       </div>
     </div>
   );

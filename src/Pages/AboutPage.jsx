@@ -23,7 +23,7 @@ export default function AboutPage() {
       title: t('slideAuditsTitle'),
       description: t('slideAuditsDesc'),
       icon: <CheckCircle className="w-8 h-8 text-white" />,
-      bgImage: "public/Images/WhoWeAre-Trust.jpg"
+      bgImage: "Images/WhoWeAre-Trust.jpg"
     },
     {
       title: t('slideSandiSyncTitle'),
@@ -190,7 +190,7 @@ export default function AboutPage() {
           </div>
           <div className="relative rounded-[2rem] overflow-hidden shadow-md aspect-[4/3]">
             <img 
-              src="public/Images/Sandi-Main.jpg" 
+              src="Images/Sandi-Main.jpg" 
               alt="Children together" 
               className="w-full h-full object-cover"
             />

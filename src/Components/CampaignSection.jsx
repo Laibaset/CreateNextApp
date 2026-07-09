@@ -46,7 +46,7 @@ export default function CampaignSection() {
       id: 3,
       tag: t('campaigns.2.tag'),
       tagColor: "bg-amber-50 text-amber-600 border-amber-100",
-      image: "public/Images/gettyimages-530930529-612x612.jpg",
+      image: "Images/gettyimages-530930529-612x612.jpg",
       organization: t('campaigns.2.organization'),
       title: t('campaigns.2.title'),
       description: t('campaigns.2.description'),

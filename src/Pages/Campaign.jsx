@@ -61,7 +61,7 @@ export default function Campaign() {
       raised: t('campaign5Raised'),
       duration: t('campaign5Duration'),
       progress: 75.0,
-      image: 'public/Images/photo-1501004318641-b39e6451bec6.jpg'
+      image: 'Images/photo-1501004318641-b39e6451bec6.jpg'
     },
     {
       id: 6,
